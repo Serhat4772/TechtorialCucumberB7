@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="15.347">
+<testcase classname="Validation of the Products Page" name="Validation of the new Product Creation" time="4.488">
+<system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "MyMoney" and "4".....................passed
+And the user enters the address info "Techtorial", "2200 E Devon", "Des Plaines", "IL", "60018".passed
+* the user enters the card info "Visa", "1234567896", "04/22"...............passed
+And the user validate success messages......................................passed
+Then the user validate product details "MyMoney", "4", "Techtorial", "2200 E Devon", "Des Plaines", "IL", "60018", "Visa", "1234567896", "04/22".passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of the Products Page" name="Validation of the new Product Creation 2" time="1.888">
+<system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "FamilyAlbum" and "2".................passed
+And the user enters the address info "Academy", "2200 E Devon", "Austin", "TX", "90054".passed
+* the user enters the card info "MasterCard", "9876543215", "06/25".........passed
+And the user validate success messages......................................passed
+Then the user validate product details "FamilyAlbum", "2", "Academy", "2200 E Devon", "Austin", "TX", "90054", "MasterCard", "9876543215", "06/25".passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of the Products Page" name="Validation of the new Product Creation 3" time="1.782">
+<system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "ScreenSaver" and "3".................passed
+And the user enters the address info "Alex", "4420 E Devon", "Chicago", "IL", "55612".passed
+* the user enters the card info "American Express", "5432167896", "02/28"...passed
+And the user validate success messages......................................passed
+Then the user validate product details "ScreenSaver", "3", "Alex", "4420 E Devon", "Chicago", "IL", "55612", "American Express", "5432167896", "02/28".passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of the Products Page" name="Validation of the new Product Creation 4" time="1.908">
+<system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "MyMoney" and "5".....................passed
+And the user enters the address info "Mike", "5316 E Devon", "Naperville", "IL", "60630".passed
+* the user enters the card info "Visa", "1234567896", "03/22"...............passed
+And the user validate success messages......................................passed
+Then the user validate product details "MyMoney", "5", "Mike", "5316 E Devon", "Naperville", "IL", "60630", "Visa", "1234567896", "03/22".passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of the Products Page" name="Validation of the new Product Creation 5" time="1.864">
+<system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "FamilyAlbum" and "1".................passed
+And the user enters the address info "Kushal", "6537 E Devon", "Pleinfield", "TX", "60012".passed
+* the user enters the card info "MasterCard", "6543687925", "02/25".........passed
+And the user validate success messages......................................passed
+Then the user validate product details "FamilyAlbum", "1", "Kushal", "6537 E Devon", "Pleinfield", "TX", "60012", "MasterCard", "6543687925", "02/25".passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of the Products Page" name="Validation of the new Product Creation 6" time="3.197">
+<system-out><![CDATA[Given the user navigates product website home page..........................passed
+When the user enters the product info "ScreenSaver" and "2".................passed
+And the user enters the address info "Priyanka", "3225 E Devon", "Rockford", "IL", "55346".passed
+* the user enters the card info "American Express", "7896554436", "01/28"...passed
+And the user validate success messages......................................passed
+Then the user validate product details "ScreenSaver", "2", "Priyanka", "3225 E Devon", "Rockford", "IL", "55346", "American Express", "7896554436", "01/28".passed
+]]></system-out>
+</testcase>
+</testsuite>
